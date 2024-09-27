@@ -52,3 +52,6 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' 
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 vim.keymap.set('n', '<leader>op', '<Cmd>Neotree toggle<CR>')
 -- vim: ts=2 sts=2 sw=2 et
+
+local neogit = require 'neogit'
+vim.keymap.set('n', '<leader>gg', neogit.open, { desc = 'Neogit open git status' })
