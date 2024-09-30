@@ -55,3 +55,6 @@ vim.keymap.set('n', '<leader>op', '<Cmd>Neotree toggle<CR>')
 
 local neogit = require 'neogit'
 vim.keymap.set('n', '<leader>gg', neogit.open, { desc = 'Neogit open git status' })
+
+local client = require('obsidian').get_client()
+vim.keymap.set('n', '<leader>nn', '<cmd>ObsidianToday<CR>', { desc = 'Creat or view todays note' })
