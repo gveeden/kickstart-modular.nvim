@@ -21,15 +21,19 @@ return {
     workspaces = {
       {
         name = 'personal',
-        path = '~/Dev/vaults/personal',
+        path = '~/Library/Mobile Documents/iCloud~md~obsidian/Documents/personal',
+      },
+      {
+        name = 'bible_study',
+        path = '~/Library/Mobile Documents/iCloud~md~obsidian/Documents/bible_study',
       },
       {
         name = 'work',
-        path = '~/Dev/vaults/work',
+        path = '~/Library/Mobile Documents/iCloud~md~obsidian/Documents/work',
       },
     },
     templates = {
-      folder = '~/Dev/vaults/templates',
+      folder = '~/Library/Mobile Documents/iCloud~md~obsidian/Documents/templates',
       date_format = '%Y-%m-%d-%a',
       time_format = '%H:%M',
     },
