@@ -58,6 +58,3 @@ vim.keymap.set('n', '<leader>gg', neogit.open, { desc = 'Neogit open git status'
 
 local client = require('obsidian').get_client()
 vim.keymap.set('n', '<leader>nn', '<cmd>ObsidianToday<CR>', { desc = 'Creat or view todays note' })
-
-local wttr = require 'wttr'
-vim.keymap.set('n', '<leader>lw', wttr.get_forecast, { desc = 'Weather forecast' })
